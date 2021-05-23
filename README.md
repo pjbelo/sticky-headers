@@ -258,9 +258,12 @@ You can read more about this at GitHub issues[8] and test it in Robert Utasi's f
 
 Live demo (GitHub Pages) at:
 
+https://pjbelo.github.io/sticky-headers/
+
 
 Complete code (GitHub) at:
 
+https://github.com/pjbelo/sticky-headers
 
 
 Code playground (jsfiddle) at:
