@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales</title>
+    
+    <style>
+
+        /* set some spacing (optional)*/
+        td, 
+        th {
+            padding: 20px;
+        }
+
+        /* style columns table headings*/
+        th[scope=col]  {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        background-color: teal;
+        }
+
+        /* style columns headings first element*/
+        th[scope=col]:nth-of-type(1)  {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background-color: peru;
+        }
+
+        /* style rows table headings*/
+        th[scope=row] {
+        position: -webkit-sticky;
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        background-color: chocolate;
+        }
+
+
+
+    </style>
+
+
+</head>
+<body>
+    
+    <h1>ACME Company</h1>
+    <table>
+        <tr>
+          <th scope="col">Sales by Country</th>
+          <th scope="col">January</th>
+          <th scope="col">February</th>
+          <th scope="col">March</th>
+          <th scope="col">April</th>
+          <th scope="col">May</th>
+          <th scope="col">June</th>
+          <th scope="col">July</th>
+          <th scope="col">August</th>
+          <th scope="col">September</th>
+          <th scope="col">October</th>
+          <th scope="col">November</th>
+          <th scope="col">December</th>
+        </tr>
+        <tr>
+            <th scope="row">Portugal</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+        </tr>
+        <tr>
+            <th scope="row">Spain</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">France</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Germany</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Italy</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Poland</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Austria</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">United States</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">England</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Scotland</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+          <tr>
+            <th scope="row">Wales</th>
+            <td>50.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+            <td>52.000</td>
+          </tr>
+      </table>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
